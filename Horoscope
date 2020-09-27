@@ -1,0 +1,63 @@
+# Application to tell future based on zodiac signs
+
+next = True
+while next == True:
+    print('''From the following zodiac signs
+    1)Aries
+    2)Taurus
+    3)Gemeni
+    4)Cancer
+    5)Leo
+    6)Virgo
+    7)Libra
+    8)Scorpio
+    9)Sagittarius
+    10)Capricorn
+    11)Aquarius
+    12)Pisces
+    ''')
+
+s=int(input("Choose your zodiac sign number and enter\n "))
+print(s)
+
+if s==1:
+    print("You have been too busy with work and social obligations. It is high time you took a break and did something for yourself. Your health may need attention. Ganesha says, everything else should take a backseat if you're stressed out.")
+   
+elif s==2:
+    print("Today, you will strike a great balance between your professional and personal life, predicts Ganesha. You will save your money from being swindled by others. You may be lagging in the race to catch up with your goals, but will not be disappointed by what you achieve. It is an auspicious day to undertake business deals and start new projects, feels Ganesha.")
+   
+elif s==3:
+    print("You need to guard against hurting anyone's feelings because of your ill-temper or harsh language. You need to help others in their troubles. You ought to reflect on the toll that the troubles that have visited you have taken on you, and accordingly empathise with others, says Ganesha.")
+   
+elif s==4:
+    print("There is nothing extraordinary about today. You will be busy doing the routine work and will find contentment in the mundane. The absence of thrill and adventure doesn't mean that you'll be free for most part of the day. By evening, you may get indications that tomorrow may not be this boring.")
+   
+elif s==5:
+    print("Your mind will be filled with conflicting emotions, says Ganesha. You will feel extreme happiness one moment, and then will be depressed the next. You need to guard against mood swings and find a balance to achieve success in your work today. Financial gains are indicated.")
+   
+elif s==6:
+    print("Surf's up as you enjoy an unexpected achievement! But your joy ride today may well be spent in vexing about the problems you have. Expect to gain new money for a new venture. Your business will rise atop the highest wave today, foretells Ganesha.")
+   
+elif s==7:
+    print("Ganesha feels the day will be beneficial for you when it comes to transactions with the government. But you already expect that. It is more than likely that public servants will have encouraging and optimistic achievements lined up for their efforts. Your expertise may be put to test and it is your experience that will come in handy.")
+   
+elif s==8:
+    print("The stars are aligned in a way that they produce a constructively favourable day for you today, predicts Ganesha. You know the importance of a team and treat everyone – seniors & juniors as equals. This will make the work environment harmonious.")
+   
+elif s==9:
+    print("It is not your nature to warm the bench, but you will wake up feeling lazy and laid-back today, says Ganesha. This may be due to the fatigue of some recent endeavours. For a change, you will try and delegate your work and responsibility to those around you. Make sure that they you do so wisely as they may not live up to your standards, warns Ganesha.")
+   
+elif s==10:
+    print("Today, you will get back to playing the power game, using both fair and unfair means to achieve your goals, says Ganesha. Intellectual growth will be phenomenal; equally good will be your intuitions. In fact, your gut feelings will guide all the decisions you take today, and rest assured, none will leave you in a soup. You will be sensitive to and understanding of others' problems, and will lend a helping hand to those who seek your assistance.")
+   
+elif s==11:
+    print("Your communication skills will work wonders today. Your eloquence will win you precious brownie points, and may prove highly beneficial in meetings. In fact, all your arguments will sound very persuasive. The trick is not to get ruffled, says Ganesha, when people don't agree with you.")
+   
+elif s==12:
+    print("An auspicious time for starting new projects, today will see you make substantial investments in your future. Your family is the foundation of your success, and keeping that in mind will provide you with some vital insights. Your smile wins many a heart today, says Ganesha.")
+
+else:
+    print("Please check the number is correct or not !")
+   
+next = True if input("\nshall we do it again? (Y/N)")=="Y": else False  
+                
